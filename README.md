@@ -1,13 +1,16 @@
 # EX-NO-4-EXPERIMENTAL-VERIFICATION-OF-OSCILLATOR
-4. ##**EX.NO:* ## EXPERIMENTAL VERIFICATION OF RC Phase Shift and Wien Bridge oscillators 
-	DATE:
- ##AIM:
+
+# **DATE:A.25/10/2025,B.01/11/2025**
+# **SLOT-5M1-1**
+ 
+## AIM:
 To construct a RC phase shift and Wien bridge oscillator to generate sine wave using op-
 amp.
 ---
- ##THEORY:
- ##RC PHASE SHIFT OSCILLATOR
-RC phase shift oscillator produces 360° of phase shift in two parts. Firstly,each and every RC pair in the feedback network produces 60° phase shift and totally there were three pairs, thus producing 180° Phase shift and secondly, the feedback input is given to the inverting terminal of op-amp to produce another 180° phase shift and a total phase shift of 360°.
+ ## THEORY:
+ 
+## **A.RC PHASE SHIFT OSCILLATOR:**
+ RC phase shift oscillator produces 360° of phase shift in two parts. Firstly,each and every RC pair in the feedback network produces 60° phase shift and totally there were three pairs, thus producing 180° Phase shift and secondly, the feedback input is given to the inverting terminal of op-amp to produce another 180° phase shift and a total phase shift of 360°.
 The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an inverting amplifier is used, the gain must be atleast equal to 29 to ensure the oscillations with constant .
 ---
 
@@ -20,7 +23,7 @@ The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an invertin
 | 3    | Op-amp                          | µA741         | 1        |
 |4    | Bread Board                     | —             | 1        |
 |5   | Resistors                       | 1K, 3.3K, 1.5K, 33K, 15K, 1MΩ | 2 |
-|6    | Capacitor                       | 0.1 µF        | 3        |
+|6    | Capacitor                       | 0.01 µF        | 3        |
 | 6   | Connecting wires and probes     | As required   | —        |
 | 
 
@@ -29,7 +32,7 @@ The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an invertin
 ---
 ## CIRCUIT DIAGRAM
 RC PHASE SHIFT OSCILLATOR
-<img width="952" height="976" alt="image" src="https://github.com/user-attachments/assets/dd2b5792-8183-4214-9245-8373279357f6" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6c917dbf-5043-4a0f-804b-3e8cad680663" />
 
 
 
@@ -56,22 +59,15 @@ R1 =10 R = 33 k. Rf = 29R1=1MΩ
 3.	Measure the output wave frequency and amplitude.
 ---
 ## TABULATION/OBSERVATION
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/4d56733f-2127-4aef-b405-a9aee32eb82e" />
 
-
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
-
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/67d663c7-ba98-41f8-9b01-1a10a99ed53e" />
 
 ---
 ## THEORY
- ##WIEN BRIDGE
+## **B.WIEN BRIDGE**
 A bridge circuit with two components connected in series and parallel combination is used to archived the required of phase shift of 0o. When the bridge is balanced the phase shift of 0o is achieved and the feedback signal is connected to the positive terminal; of Op-amp. So the Op-amp is acting as a non-inverting amplifier and the feedback network do not provide any phase shift.
 The frequency of oscillation is given by fo = 1/2πRC
 ## APPARATUS REQUIRED
@@ -82,15 +78,15 @@ The frequency of oscillation is given by fo = 1/2πRC
 |2   | Dual RPS                        | (0–30) V      | 1        |
 | 3    | Op-amp                          | µA741         | 1        |
 |4    | Bread Board                     | —             | 1        |
-|5   | Resistors                       | 1K, 3.3K, 1.5K, 33K, 15K, 1MΩ | 2 |
-|6    | Capacitor                       | 0.1 µF        | 3        |
+|5   | Resistors                       | 1K, 3.3K, 15.9K, 33K, 15K, 1MΩ | 2 |
+|6    | Capacitor                       | 0.01 µF        | 3        |
 | 7 | Connecting wires and probes     | As required   | —        |
 
 ---
 
 ## CIRCUIT DIAGRAM
 WIEN BRIDGE OSCILLATOR
-<img width="570" height="480" alt="image" src="https://github.com/user-attachments/assets/be71f26e-36ad-4677-8117-51362146cbbd" />
+![WhatsApp Image 2025-11-22 at 10 42 04](https://github.com/user-attachments/assets/c45d645d-49cb-468f-8c26-d5862e28e3ef)
 
 
 ---
@@ -106,10 +102,10 @@ Select frequency f0 = 1KHz
 fo = 1/2πRC
 A = 1+(Rf / R1) = 3.
 To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
+Therefore Rf = 2R1 & assume C = 0.01μf & find R from
 R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
+=1/2*3.14*1*103*0.01*10-6
+= 15.9KΩ.
 Assume R1 = 10R & find Rf from Rf = 2R1
 Therefore R1 = 1.5K *10=15KΩ
 Rf = 15K *2=30KΩ
@@ -123,18 +119,11 @@ Rf = 15K *2=30KΩ
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 ---
 ## TABULATION/OBSERVATION
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d07c3cb8-64f9-4a00-b7eb-322f5cf57633" />
 
-
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
-
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/0383bc33-5930-4dfa-817c-1d946e2faf26" />
 
 ---
 ## RESULT:
