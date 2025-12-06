@@ -1,8 +1,7 @@
 # EX-NO-4-EXPERIMENTAL-VERIFICATION-OF-OSCILLATOR
 
 # **DATE:A.25/10/2025,B.01/11/2025**
-# **SLOT-5M1-1**
- 
+
 ## AIM:
 To construct a RC phase shift and Wien bridge oscillator to generate sine wave using op-
 amp.
